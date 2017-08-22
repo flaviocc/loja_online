@@ -15,7 +15,7 @@ public class AdminBooksBean {
 	private Book product = new Book();
 
 	public void save() {
-		System.out.println(product);
+		bookDAO.save(product);
 	}
 
 	public Book getProduct() {
