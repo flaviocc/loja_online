@@ -11,7 +11,7 @@ public class BookDAO {
 	private EntityManager manager;
 	
 	public void save(Book product) {
-		manager.persist(manager);
+		manager.persist(product);
 	}
 	
 	
